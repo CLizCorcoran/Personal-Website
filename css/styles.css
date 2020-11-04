@@ -52,6 +52,20 @@ a {
     top: -20px;
   }
 
+  #line {
+      position: relative;
+      top: -60px;
+      z-index: -1;
+  }
+
+  .nav-item {
+      background-color: white;
+  }
+
+  a.active {
+      text-decoration: underline;
+  }
+
   .image {
  
   }
@@ -127,6 +141,18 @@ a {
       margin-top: 20px;
   }
 
+  #contactEmail {
+      min-width: 240px;
+  }
+
+  #contactSubject {
+      min-width: 240px;
+  }
+
+  #contactMessage {
+      min-width: 360px;
+      
+  }
   /*
   .contactNames {
     display: inline-block;
