@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en-US" ng-app="siteApp">
+
+  <head>
+    <title>Christie Corcoran</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/simplex/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+     <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <header class="container">
+        <nav class="navbar nav-fill">
+                <a class="nav-item nav-link active" href="welcome.html">Welcome<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Experience</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+         </nav>
+
+         <div>
+            <img class="logo logosmfloat" src="img/CC.png" alt="CC"/>
+            <p>christie.corcoran@icloud.com</p>
+         </div>
+    </header>
+
+    <main id="contactMain">
+        <h3><b>Let's Talk!</b></h3>
+        <p id="contactText">New opportunities, freelance inquiry, or even a coffee.</p>
+
+        <form id="contactForm">
+            <label>Name*</label><br/>
+
+            <div class="firstdiv">
+                <input type="text" id="contactFName" name="fname" class="contactNames" required>
+                <label class="contactNameLabel" for="contactFName">First Name</label>
+            </div>
+         
+            <div>
+                <input type="text" id="contactLName" class="contactNames" name="lname" >
+                <label class="contactNameLabel" for="contactLName">Last Name</label>
+            </div>
+
+            <br class="floatClear" />
+
+            <label class="contactinputlabel" for="contactEmail">Email Address*</label><br />
+            <input type="text" id="contactEmail" name="email" required>
+
+            <br />
+
+            <label class="contactinputlabel" for="contactSubject">Subject*</label><br />
+            <input type="text" id="contactSubject" name="subject" required>
+
+            <br />
+
+            <label class="contactinputlabel" for="contactMessage">Message*</label><br />
+            <input type="input" type="textarea" id="contactMessage" name="message" required>
+                                                
+        </form>
+    </main>
+  </body>
