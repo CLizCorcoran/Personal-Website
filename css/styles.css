@@ -1,18 +1,31 @@
-.container {
-    padding: 10px 20px;
- 
-    
+header {
+    padding: 10px 20px;    
 }
 
 .navbar {
     text-align: center;
+    border: none;
+    
+    justify-content: center;
+}
+
+#welcomeLink {
+    max-width: 100px;
+}
+
+#experienceLink {
+    max-width: 100px;
+}
+
+#contactLink {
+    max-width: 100px;
 }
 
 body {
     border-style: solid;
     border-color: lightgrey;
     border-width: thin;
-    margin: 5px;
+    margin: 5px;  
 }
 
 a {
@@ -21,9 +34,7 @@ a {
 
 .flex-container {
     display: inline-flex;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;   
   }
 
   .pic {
@@ -54,7 +65,7 @@ a {
 
   #line {
       position: relative;
-      top: -60px;
+      top: -45px;
       z-index: -1;
   }
 
@@ -64,10 +75,6 @@ a {
 
   a.active {
       text-decoration: underline;
-  }
-
-  .image {
- 
   }
 
   .main {
@@ -80,6 +87,83 @@ a {
   }
 
   
+/*  Experience  */
+section div.carousel-item img{
+    width: 500px;
+}
+
+.compimage {
+    width: 500px;
+}
+
+#mountainimage {
+    height: 350px;
+    padding-bottom: 20px;
+}
+
+section div.item h3{
+    text-align: center;
+}
+
+.carousel-inner {
+    text-align: center;
+    
+}
+
+.carousel .carousel-item > img {
+    display: inline-block;
+    text-align: center;
+}
+
+section.carousel {
+    
+}
+
+.expParagraph {
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+.carousel-indicators li {
+    background-color: lightgrey;
+}
+
+.carousel-indicators .active {
+    background-color: red;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+ 
+
+
+
+
+/* Contact */
+
+
+
 
   .intro {
       margin-top: 0px;
