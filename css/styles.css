@@ -213,6 +213,10 @@ section.carousel {
      clear: both; 
   }
 
+  .contactFields {
+      height: 40px;
+  }
+
   .contactNameLabel {
       font-size: xx-small;
    }
@@ -236,6 +240,12 @@ section.carousel {
   #contactMessage {
       min-width: 360px;
       
+  }
+
+  #contactsubmit {
+      background-color: black;
+      color: white;
+      height: 40px;
   }
   /*
   .contactNames {

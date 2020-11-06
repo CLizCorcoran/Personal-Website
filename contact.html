@@ -43,29 +43,34 @@
             <label>Name*</label><br/>
 
             <div class="firstdiv">
-                <input type="text" id="contactFName" name="fname" class="contactNames" required>
+                <input type="text" id="contactFName" name="fname" class="contactNames contactFields " required>
                 <label class="contactNameLabel" for="contactFName">First Name</label>
             </div>
          
             <div>
-                <input type="text" id="contactLName" class="contactNames" name="lname" >
+                <input type="text" id="contactLName" class="contactNames contactFields " name="lname" >
                 <label class="contactNameLabel" for="contactLName">Last Name</label>
             </div>
 
             <br class="floatClear" />
 
             <label class="contactinputlabel" for="contactEmail">Email Address*</label><br />
-            <input type="text" id="contactEmail" name="email" required>
+            <input type="text" id="contactEmail" class="contactFields" name="email" required>
 
             <br />
 
             <label class="contactinputlabel" for="contactSubject">Subject*</label><br />
-            <input type="text" id="contactSubject" name="subject" required>
+            <input type="text" id="contactSubject" class="contactFields" name="subject" required>
 
             <br />
 
             <label class="contactinputlabel" for="contactMessage">Message*</label><br />
             <textarea id="contactMessage" name="message" rows="10" required></textarea>
+
+            <br />
+            
+            <input id="contactsubmit" type="submit" value="SUBMIT">
+
                                                 
         </form>
     </main>
