@@ -1,3 +1,12 @@
+body {
+    max-width: 1280px;
+    justify-content: center;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: thin;
+    margin: auto;
+}
+
 header {
     padding: 10px 20px;    
 }
@@ -22,10 +31,7 @@ header {
 }
 
 body {
-    border-style: solid;
-    border-color: lightgrey;
-    border-width: thin;
-    margin: 5px;  
+ 
 }
 
 a {
@@ -162,9 +168,6 @@ section.carousel {
 
 /* Contact */
 
-
-
-
   .intro {
       margin-top: 0px;
   }
@@ -185,12 +188,23 @@ section.carousel {
 
   #contactMain {
       padding-left: 65px;
+      max-width: 800px;
   }
 
   #contactForm {
       padding-top: 30px;
   }
 
+  .flexNameContainer {
+    display: flex;
+  }
+
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+ }
+
+  
   #contactFName {
       margin-right: 30px;
       min-width: 100px;
@@ -213,8 +227,18 @@ section.carousel {
      clear: both; 
   }
 
+  main.contactMain input {
+      background-color: #EAEAEA;
+  }
+
   .contactFields {
       height: 40px;
+      margin-bottom: 40px;
+      background-color: #F5F5F5;
+      border-color: #CFCFCF;
+      border-style: solid;
+      border-width: 1px;
+      width: 100%;
   }
 
   .contactNameLabel {
@@ -223,6 +247,13 @@ section.carousel {
 
   .contactNames {
       display: block;
+      height: 40px;
+      background-color: #F5F5F5;
+      border-color: #CFCFCF;
+      border-style: solid;
+      border-width: 1px;
+      width: 100%;
+      
   }
 
   .contactEmailLabel {
@@ -239,6 +270,12 @@ section.carousel {
 
   #contactMessage {
       min-width: 360px;
+      margin-bottom: 40px;
+      background-color: #F5F5F5;
+      border-color: #CFCFCF;
+      border-style: solid;
+      border-width: 1px;
+      width: 100%;
       
   }
 
@@ -246,6 +283,9 @@ section.carousel {
       background-color: black;
       color: white;
       height: 40px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-bottom: 30px;
   }
   /*
   .contactNames {

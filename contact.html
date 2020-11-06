@@ -4,24 +4,23 @@
 
   <head>
     <title>Christie Corcoran</title>
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/simplex/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/simplex/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
-     <meta charset="utf-8"> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   </head>
 
   <body>
-    <header class="container">
+    <header class="">
         
-        <nav class="navbar nav-fill">
-                <a class="nav-item nav-link" href="welcome.html"">WELCOME<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="experience.html">EXPERIENCE</a>
-                <a class="nav-item nav-link active" href="#">CONTACT</a>
+        <nav class="navbar nav-fill navbar-light">
+                <a id="welcomeLink" class="nav-item nav-link" href="welcome.html">WELCOME</a>
+                <a id="experienceLink" class="nav-item nav-link" href="experience.html">EXPERIENCE</a>
+                <a id="contactLink" class="nav-item nav-link active" href="#">CONTACT</a>
          </nav>
 
          <svg id="line" height="2" width="100%"  >
@@ -42,13 +41,13 @@
         <form id="contactForm">
             <label>Name*</label><br/>
 
-            <div class="firstdiv">
-                <input type="text" id="contactFName" name="fname" class="contactNames contactFields " required>
+            <div class="divNames">
+                <input type="text" id="contactFName" name="fname" class="contactNames" required>
                 <label class="contactNameLabel" for="contactFName">First Name</label>
             </div>
          
-            <div>
-                <input type="text" id="contactLName" class="contactNames contactFields " name="lname" >
+            <div class="divNames">
+                <input type="text" id="contactLName" class="contactNames" name="lname" >
                 <label class="contactNameLabel" for="contactLName">Last Name</label>
             </div>
 
