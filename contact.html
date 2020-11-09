@@ -2,77 +2,78 @@
 
 <html lang="en-US" ng-app="siteApp">
 
-  <head>
-    <title>Christie Corcoran</title>
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/simplex/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>Christie Corcoran</title>
 
-  </head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/simplex/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <body>
-    <header class="">
-        
-        <nav class="navbar nav-fill navbar-light">
-                <a id="welcomeLink" class="nav-item nav-link" href="welcome.html">WELCOME</a>
-                <a id="experienceLink" class="nav-item nav-link" href="experience.html">EXPERIENCE</a>
-                <a id="contactLink" class="nav-item nav-link active" href="#">CONTACT</a>
-         </nav>
+</head>
 
-         <svg id="line" height="2" width="100%"  >
-            <line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(255,0,0);stroke-width:2" />
-            Sorry, your browser does not support inline SVG.
-          </svg>
+<body>
+  <header class="">
 
-          <div>
-            <img class="logo logosmfloat" src="img/CC.png" alt="CC"/>
-            <p>christie.corcoran@icloud.com</p>
-         </div>
-    </header>
+    <nav class="navbar nav-fill navbar-light">
+      <a id="welcomeLink" class="nav-item nav-link" href="welcome.html">WELCOME</a>
+      <a id="experienceLink" class="nav-item nav-link" href="experience.html">EXPERIENCE</a>
+      <a id="contactLink" class="nav-item nav-link active" href="#">CONTACT</a>
+    </nav>
 
-    <main id="contactMain">
-        <h3><b>Let's Talk!</b></h3>
-        <p id="contactText">New opportunities, freelance inquiry, or even a coffee.</p>
+    <svg id="line" height="2" width="100%">
+      <line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(255,0,0);stroke-width:2" />
+      Sorry, your browser does not support inline SVG.
+    </svg>
 
-        <form id="contactForm">
-            <label>Name*</label><br/>
+    <div>
+      <img class="logo logosmfloat" src="img/CC.png" alt="CC" />
+      <p>christie.corcoran@icloud.com</p>
+    </div>
+  </header>
 
-            <div class="flexNameContainer">
-              <div class="divNames">
-                  <input type="text" id="contactFName" name="fname" class="contactNames" required>
-                  <label class="contactNameLabel" for="contactFName">First Name</label>
-              </div>
-          
-              <div class="divNames">
-                  <input type="text" id="contactLName" class="contactNames" name="lname" >
-                  <label class="contactNameLabel" for="contactLName">Last Name</label>
-              </div>
-            </div>
+  <main id="contactMain">
+    <h3><b>Let's Talk!</b></h3>
+    <p id="contactText">New opportunities, freelance inquiry, or even a coffee.</p>
 
-            <br class="floatClear" />
+    <form id="contactForm">
+      <label>Name*</label><br />
 
-            <label class="contactinputlabel" for="contactEmail">Email Address*</label><br />
-            <input type="text" id="contactEmail" class="contactFields" name="email" required>
+      <div class="flexNameContainer">
+        <div class="divNames">
+          <input type="text" id="contactFName" name="fname" class="contactNames" required>
+          <label class="contactNameLabel" for="contactFName">First Name</label>
+        </div>
 
-            <br />
+        <div class="divNames">
+          <input type="text" id="contactLName" class="contactNames" name="lname">
+          <label class="contactNameLabel" for="contactLName">Last Name</label>
+        </div>
+      </div>
 
-            <label class="contactinputlabel" for="contactSubject">Subject*</label><br />
-            <input type="text" id="contactSubject" class="contactFields" name="subject" required>
+      <br class="floatClear" />
 
-            <br />
+      <label class="contactinputlabel" for="contactEmail">Email Address*</label><br />
+      <input type="text" id="contactEmail" class="contactFields" name="email" required>
 
-            <label class="contactinputlabel" for="contactMessage">Message*</label><br />
-            <textarea id="contactMessage" name="message" rows="10" required></textarea>
+      <br />
 
-            <br />
-            
-            <input id="contactsubmit" type="submit" value="SUBMIT">
+      <label class="contactinputlabel" for="contactSubject">Subject*</label><br />
+      <input type="text" id="contactSubject" class="contactFields" name="subject" required>
 
-                                                
-        </form>
-    </main>
-  </body>
+      <br />
+
+      <label class="contactinputlabel" for="contactMessage">Message*</label><br />
+      <textarea id="contactMessage" name="message" rows="10" required></textarea>
+
+      <br />
+
+      <input id="contactsubmit" type="submit" value="SUBMIT">
+
+
+    </form>
+  </main>
+</body>
