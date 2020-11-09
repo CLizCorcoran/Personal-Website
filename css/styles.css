@@ -35,9 +35,7 @@ header {
     max-width: 100px;
 }
 
-a {
-    padding: 8px;
-}
+
 
 #line {
     position: relative;
@@ -146,6 +144,9 @@ section.carousel {
     padding-left: 20px;
     padding-right: 20px;
     height: 150px;
+    width: 70%;
+    margin: auto;
+    text-align: left;
 }
 
 .carousel-indicators li {
