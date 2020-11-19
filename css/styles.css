@@ -10,10 +10,11 @@ body {
     border-color: lightgrey;
     border-width: thin;
     margin: auto;
-}
+    padding-bottom: 20px;
+ }
 
 header {
-    padding: 10px 20px;    
+    padding: 10px 20px 10px;    
 }
 
 .navbar {
@@ -47,7 +48,7 @@ header {
     background-color: white;
 }
 
-a.active {
+nav > a.active {
     text-decoration: underline;
 }
 
@@ -56,22 +57,69 @@ a.active {
 /*                              Welcome page                                     */
 /*-------------------------------------------------------------------------------*/
 
-.image {
-    align-self: center;
-}
+.welcome-flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+  }
+
+  .welcome-flex-container > div {
+    margin: 0px 20px;    
+  }
+  
+
+  /* Image looks a bit nicer a smidgeon down from text block */
+  .image {
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
 
   .pic {
     width: 450px;
     object-fit: contain;
     align-self: center;
-    
+  }
+
+  /* flex with a single value is flex-grow: 1; flex-basis: 0px */
+  .main {
+    flex: 1;
   }
 
   .logo {
        width: 20px;
        float: left;
-
   }
+
+  .logofloat {
+     position: relative;
+    left: -10px;
+     top: -10px;
+  }
+
+  .intro {
+    margin-top: 0px;
+  }
+
+  #aboutme {
+    min-width: 250px;
+  }
+
+  .social {
+    
+    margin-right: 10px;
+}
+
+.fab {
+    font-size: 2em;
+    color:lightgrey;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+} 
+
 
   .logosmfloat {
     position: relative;
@@ -79,30 +127,7 @@ a.active {
     top: -10px;
   }
 
-  .logofloat {
  
-    position: relative;
-    left: -10px;
-    top: -10px;
-  }
-
- .main {
-      flex: 1;
-  }
-
-  .welcome-flex-container {
-    display: inline-flex;
-    flex-wrap: wrap; 
-  }
-  
-  .welcome-flex-container > div {
-    margin: 20px;    
-  }
-
-  #aboutme {
-      min-width: 250px;
-  }
-
   
 /*-------------------------------------------------------------------------------*/
 /*                                    Experience                                 */
@@ -130,13 +155,25 @@ section div.item h3{
     
 }
 
+@media screen and (min-width: 992px) {
+    .carousel-item {
+        height: 650px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-item {
+        height: 750px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .carousel-item {
+        height: 870px;
+    }
+}
+
 .carousel .carousel-item > img {
     display: inline-block;
     text-align: center;
-}
-
-section.carousel {
-    
 }
 
 .expParagraph {
@@ -157,15 +194,6 @@ section.carousel {
     background-color: red;
 }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  
-}
 
 .carousel-control-next-icon:after
 {
@@ -184,15 +212,6 @@ section.carousel {
 /*-------------------------------------------------------------------------------*/
 /*                                   Contact                                     */
 /*-------------------------------------------------------------------------------*/
-
-  .intro {
-      margin-top: 0px;
-  }
-
-  .social {
-      height: 20px;
-      width: 20px;
-  }
 
   button {
       border: none;
