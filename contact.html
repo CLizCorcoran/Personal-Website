@@ -16,8 +16,7 @@
 </head>
 
 <body>
-  <header class="">
-
+  <header>
     <nav class="navbar nav-fill navbar-light">
       <a id="welcomeLink" class="nav-item nav-link" href="welcome.html">WELCOME</a>
       <a id="experienceLink" class="nav-item nav-link" href="experience.html">EXPERIENCE</a>
@@ -36,6 +35,13 @@
   </header>
 
   <main id="contactMain">
+    <!--  Simple form to send me an email; however, note that I did not 
+            set it up to work.  
+
+          Had to do some research to get the 'First Name' and 'Last Name' 
+            text where I wanted it.  
+
+    -->
     <h3><b>Let's Talk!</b></h3>
     <p id="contactText">New opportunities, freelance inquiry, or even a coffee.</p>
 
@@ -71,9 +77,47 @@
 
       <br />
 
-      <input id="contactsubmit" type="submit" value="SUBMIT">
-
-
+      <!-- Instead of submitting the form, pop up a dialog letting the user know that no
+            email will be sent.  
+      -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dlg">
+        SUBMIT
+      </button>
+  
+      <!-- The message modal dialog -->
+      <div class="modal fade" id="dlg" tabindex="-1" role="dialog" aria-labelledby="dlg" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="dlgHeader">Email Submit</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Thank you for reaching out!
+              <br />
+              <br />
+              This is where an email should be sent; however,
+              I don't have that set up quite yet.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </form>
   </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
 </body>

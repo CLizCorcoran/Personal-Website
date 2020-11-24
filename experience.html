@@ -16,8 +16,7 @@
 </head>
 
 <body>
-  <header class="">
-
+  <header>
     <nav class="navbar nav-fill navbar-light">
       <a id="welcomeLink" class="nav-item nav-link" href="welcome.html">WELCOME</a>
       <a id="experienceLink" class="nav-item nav-link active" href="#">EXPERIENCE</a>
@@ -33,91 +32,96 @@
       <img class="logo logofloat" src="img/CC.png" alt="CC" />
       <h3 class="intro">Christie Corcoran</h3>
     </div>
-
-
   </header>
 
-  <section id="carousel" class="carousel slide" data-interval="false">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel" data-slide-to="1"></li>
-      <li data-target="#carousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <h4>SAS Enterprise Guide</h4>
-        <img class="compimage" src="img/saseg.png" alt="Enterprise Guide" />
-        <section class="expParagraph">
-          <p><a href="http://www.sas.com" target="_blank"><b>SAS</b></a> is a statistical software company who helps their customers manage,
-            scrub, and manipulate their data to discover useful information for business decision making.</p>
-          <p><a href="https://www.sas.com/en_us/software/enterprise-guide.html" target="_blank"><b>SAS Enterprise Guide</a></b> is a desktop application for SAS users to harness the power of SAS.</p>
-          <p>Jan 2004 – April 2013:  I was a lead designer and developer on a report rendering engine.  Reports were generated when running SAS code or through other products such as SAS Web Report Studio.  I was also a lead participant of the architecture committee for the design of the report specification.  Collaborated with other teams generating the report syntax to educate on syntax, find problems and assist any way I could.  (C#, XML)</p>
-          <p>June 1996 – April 2002:  Enterprise Guide will always be near and dear to my heart as I was one of the founding developers.  During this stint, I was responsible for the overall architecture of the product and worked on infrastructure code.  (C++, C#)</p>  
-        </section>
+  <main>
+    <!--  The experience page shows a Bootstrap 4 carousel component
+            showcasing some of my accomplishments.  Added a number of
+            hyperlinks to allow for further view if desired by the viewer.
+            
+          There is a media query that helps with the sizing of the 
+            carousel pages.  As the user reduces the size of the browser
+            window, the carousel item's height will grow.  
+
+    -->
+
+    <section id="carousel" class="carousel slide" data-interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h4>SAS Enterprise Guide</h4>
+          <img class="compimage" src="img/saseg.png" alt="Enterprise Guide" />
+          <section class="expParagraph">
+            <p><a href="http://www.sas.com" target="_blank"><b>SAS</b></a> is a statistical software company who helps
+              their customers manage,
+              scrub, and manipulate their data to discover useful information for business decision making.</p>
+            <p><a href="https://www.sas.com/en_us/software/enterprise-guide.html" target="_blank"><b>SAS Enterprise
+                  Guide</a></b> is a desktop application for SAS users to harness the power of SAS.</p>
+            <p>Jan 2004 – April 2013: I was a lead designer and developer on a report rendering engine. Reports were
+              generated when running SAS code or through other products such as SAS Web Report Studio. I was also a lead
+              participant of the architecture committee for the design of the report specification. Collaborated with
+              other teams generating the report syntax to educate on syntax, find problems and assist any way I could.
+              (C#, XML)</p>
+            <p>June 1996 – April 2002: Enterprise Guide will always be near and dear to my heart as I was one of the
+              founding developers. During this stint, I was responsible for the overall architecture of the product and
+              worked on infrastructure code. (C++, C#)</p>
+          </section>
+        </div>
+        <div class="carousel-item">
+          <h4>SAS Studio</h4>
+          <img class="compimage" src="img/sasstudio.png" alt="SAS Studio" />
+          <section class="expParagraph">
+            <p><a href="http://www.sas.com" target="_blank"><b>SAS</b></a> is a statistical software company who
+              helps their customers manage, scrub, and manipulate their data to discover useful information for business
+              decision making.</p>
+            <p><a href="https://www.sas.com/en_us/software/studio.html" target="_blank"><b>SAS Studio</b></a> is a web
+              application for SAS users to harness the power of SAS. It shares many similarities to its compainion desktop
+              product, SAS Enterprise Guide.</p>
+            <p>April 2013 – June 2020: Managed a team of 4-6 developers to create, promote, and maintain a dynamic user
+              interface rendering engine. This was known as SAS Studio Tasks. Tasks were written in an XML specification
+              known as the <a href="http://support.sas.com/resources/papers/proceedings15/SAS1831-2015.pdf"
+                target="_blank"><b>Common Task Model</b></a>. Tasks could render a variety of smart prompts which could
+              retrieve information from the SAS sever. SAS Studio shipped with a variety of tasks written within SAS;
+              however, the ability to write tasks was also available to customers. (JavaScript, Dojo and SAPUI5
+              frameworks, Java, CSS, XML)</p>
+          </section>
+        </div>
+        <div class="carousel-item">
+          <h4>The Present</h4>
+          <img id="mountainimage" src="img/mountains.jpg" alt="The Present" />
+          <section class="expParagraph">
+            <p>Although I loved working at SAS and am grateful for the many opportunities I had along
+              the way, it was time to move on. As a lifelong learner, I was eager
+              to learn new things and tackle new challenges. Technically, I retired from the company. I do not however,
+              consider myself retired from a worklife.
+            </p>
+            <p>After retiring, I start a series of self-learning exercies. I went through tutorials on AWS, React, MySQL,
+              Ruby, and Ruby on Rails. Wanting a more structured program, I
+              signed up for a Web Development Bootcamp through Northeastern Illinoi University / Quickstart. This program
+              refreshed and enhanced my knowledge of HTML, CSS, and JavaScript.
+              In addition, I was exposed to jQuery, Bootstrap, Python, React, AngularJs, and MySQL. Several projects were
+              worked on throughout the course as well as a final capstone project.
+            </p>
+          </section>
+        </div>
       </div>
-      <div class="carousel-item">
-        <h4>SAS Studio</h4>
-        <img class="compimage" src="img/sasstudio.png" alt="SAS Studio" />
-        <section class="expParagraph">
-          <p><a href="http://www.sas.com" target="_blank"><b>SAS</b></a> is a statistical software company who
-            helps their customers manage, scrub, and manipulate their data to discover useful information for business
-            decision making.</p>
-          <p><a href="https://www.sas.com/en_us/software/studio.html" target="_blank"><b>SAS Studio</b></a> is a web application for SAS users to harness the power of SAS.  It shares many similarities to its compainion desktop product, SAS Enterprise Guide.</p>
-          <p>April 2013 – June 2020:  Managed a team of 4-6 developers to create, promote, and maintain a dynamic user interface rendering engine.  This was known as SAS Studio Tasks.  Tasks were written in an XML specification known as the <a href="http://support.sas.com/resources/papers/proceedings15/SAS1831-2015.pdf" target="_blank"><b>Common Task Model</b></a>.  Tasks could render a variety of smart prompts which could retrieve information from the SAS sever.  SAS Studio shipped with a variety of tasks written within SAS; however, the ability to write tasks was also available to customers.  (JavaScript, Dojo and SAPUI5 frameworks, Java, CSS, XML)</p>
-        </section>
-      </div>
-      <div class="carousel-item">
-        <h4>The Present</h4>
-        <img id="mountainimage" src="img/mountains.jpg" alt="The Present" />
-        <section class="expParagraph">
-          <p>Although I loved working at SAS and am grateful for the many opportunities I had along
-            the way, it was time to move on. As a lifelong learner, I was eager
-            to learn new things and tackle new challenges. Technically, I retired from the company. I do not however,
-            consider myself retired from a worklife.
-          </p>
-          <p>After retiring, I start a series of self-learning exercies. I went through tutorials on AWS, React, MySQL,
-            Ruby, and Ruby on Rails. Wanting a more structured program, I
-            signed up for a Web Development Bootcamp through Northeastern Illinoi University / Quickstart. This program
-            refreshed and enhanced my knowledge of HTML, CSS, and JavaScript.
-            In addition, I was exposed to jQuery, Bootstrap, Python, React, AngularJs, and MySQL. Several projects were
-            worked on throughout the course as well as a final capstone project.
-          </p>
-        </section>
-      </div>
-    </div>
-
-
-    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-
-    <!-- 
-        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel" role="button" data-slide="next"> 
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-  -->
-
-    <!--
-        <a class="carousel-control left" href="#carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control right" href="#carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        -->
-  </section>
+  
+  
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+  
+    </section>
+  </main>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
