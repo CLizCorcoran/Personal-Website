@@ -4,6 +4,14 @@ This website is meant to introduce potential employers to Christie's background 
 
 It was written for her Web Development class to showcase some of her knowledge of HTML and CSS as well as her initial learnings of Bootstrap (Bootstrap 4 is the version used).  
 
+## User Stories
+As a recruiter, I would like to get to know this candidate better so that I can see if they are a good match for the job I am looking to fill.
+
+As a small business owner, I am interested in getting more information from this freelance web designer to see how they could build my company’s website.  
+
+As a young professional, I am interested in learning more about Christie to see if she would be a good mentor.  
+
+
 ## About the Website
 The website consists of three pages - Welcome, Experience, and Contact.  
 
