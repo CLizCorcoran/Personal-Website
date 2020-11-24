@@ -13,7 +13,7 @@ As a young professional, I am interested in learning more about Christie to see 
 
 
 ## About the Website
-The website consists of three pages - Welcome, Experience, and Contact.  
+The website consists of three pages - Welcome (welcome.html), Experience (experience.html), and Contact (contact.html).  The 'first' page would be welcome.html.    
 
 ### Welcome
 The Welcome page introduces the user to Christie and a summary of her history.  It uses a two column layout which wraps when the page is reduced in size.  
