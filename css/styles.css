@@ -11,6 +11,8 @@ body {
     border-width: thin;
     margin: auto;
     padding-bottom: 20px;
+
+    font-size: .8125rem;
  }
 
 header {
@@ -26,21 +28,29 @@ header {
 
 #welcomeLink {
     max-width: 100px;
+    font-weight: 600;
 }
 
 #experienceLink {
     max-width: 100px;
+    font-weight: 600;
 }
 
 #contactLink {
     max-width: 100px;
+    font-weight: 600;
+}
+
+#portfolioLink {
+    max-width: 100px;
+    font-weight: 600;
 }
 
 
 
 #line {
     position: relative;
-    top: -45px;
+    top: -42px;
     z-index: -1;
 }
 
@@ -127,6 +137,10 @@ a:hover {
     top: -10px;
   }
 
+  #social a {
+      text-decoration: none;
+  }
+
  
   
 /*-------------------------------------------------------------------------------*/
@@ -186,8 +200,8 @@ section div.item h3{
     text-align: left;
 }
 
-.carousel-indicators li {
-    background-color: lightgrey;
+.carousel-indicators [data-bs-target] {
+    background-color: lightgray;
 }
 
 .carousel-indicators .active {
@@ -229,7 +243,7 @@ section div.item h3{
   }
 
   #contactForm {
-      padding-top: 30px;
+      padding-top: 10px;
   }
 
   .flexNameContainer {
@@ -245,8 +259,6 @@ section div.item h3{
   .flexNameContainer > :first-child {
      margin-right: 10px;
   }
-
-
 
   #contactFName {
       margin-right: 30px;
@@ -271,7 +283,7 @@ section div.item h3{
 
   .contactFields {
       height: 40px;
-      margin-bottom: 40px;
+      margin-bottom: 25px;
       background-color: #F5F5F5;
       border-color: #CFCFCF;
       border-style: solid;
@@ -308,7 +320,7 @@ section div.item h3{
 
   #contactMessage {
       min-width: 360px;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
       background-color: #F5F5F5;
       border-color: #CFCFCF;
       border-style: solid;
