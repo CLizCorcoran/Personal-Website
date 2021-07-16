@@ -2,7 +2,7 @@
 require('../css/styles.css');
 
 // HTML
-import '../welcome.html';
+import '../index.html';
 import '../experience.html';
 import '../portfolio.html';
 

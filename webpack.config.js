@@ -29,39 +29,16 @@ module.exports = {
                 ]
             },
             {
-                test: /welcome.html$/i,
+                test: /\.html$/,
                 use: [
                     {
                         loader: 'file-loader',
                         options: {
-                            name: 'welcome.html'
-                        }
-                    }
-                ]
-            },
-            {
-                test: /experience.html$/i,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: 'experience.html'
-                        }
-                    }
-                ]
-            },          
-            {
-                test: /portfolio.html$/i,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: 'portfolio.html'
+                            name: '[path][name].[ext]',
                         }
                     }
                 ]
             }
-
         ]
     }
 };
