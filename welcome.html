@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en-US" ng-app="siteApp">
+
+<head>
+  <title>Christie Corcoran</title>
+
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/brands.min.css" />
+    
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar nav-fill navbar-light navbar-fixed-top">
+      <a id="welcomeLink" class="nav-item nav-link active" href="#">WELCOME</a>
+      <a id="experienceLink" class="nav-item nav-link" href="experience.html">EXPERIENCE</a>
+      <a id="portfolioLink" class="nav-item nav-link" href="portfolio.html">PORTFOLIO</a>
+    </nav>
+
+    <svg id="line" height="2" width="100%">
+      <line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(255,0,0);stroke-width:2" />
+      Sorry, your browser does not support inline SVG.
+    </svg>
+  </header>
+
+  <main>
+    <!-- Two column layout where the image and the text wrap should the 
+          browser window get too small.  
+
+          Social media icons are shown using FontAwesome.  
+
+          Bootstrap 4 is used and is referenced via its CDN along with
+          jQuery and popper.  
+    -->
+    <div class="welcome-flex-container">
+      <div class="image">
+        <img class="pic" src="img/christie.jpg" alt="Christie Corcoran" />
+      </div>
+      <div class="main">
+        <img class="logo logofloat" src="img/CC.png" alt="CC" />
+        <h3 class="intro">Christie Corcoran</h3>
+        <p id="aboutme"><b><i>Welcome to my site!</i> I have been in the software development world for over 28 years.
+            Working with others to build amazing products is my passion. Every player of the product lifecycle is
+            critical to its success. I find joy in seeing everyone come to the table. My passion for collaborating with
+            others has sustained me in this field that can at times be grueling with pressure and deadlines. In the end,
+            the taste of sweet success with a team that is a second family is worth all the effort. </b></p>
+        <p>I stumbled into programming while in college at North Carolina State University (Go Wolfpack!). Not knowing
+          what to major in, Computer Science felt different from the other Engineering curriculums I was considering. My
+          first class was love at first sight. I was fortunate to find a co-op at IBM and had several fabulous
+          development rotations there getting to work on products such as <a href="https://en.wikipedia.org/wiki/ISPF" target="_blank">ISPF</a>, <a href="https://en.wikipedia.org/wiki/IBM_Cross_System_Product" target="_blank">CSP</a>, and even producing and supporting
+          my own internal IBM tool translating <a href="https://en.wikipedia.org/wiki/Data_structure_diagram#Bachman_diagram" target="_blank">Bachman diagrams</a> into natural text. </p>
+        <p>Upon graduation, I landed a job at SAS, a company well renowned for their data analytics and amazing
+          work-life balance. The next 20 years flew by as I worked on the Base SAS platform as well as exciting products
+          such as SAS Enterprise Guide and SAS Studio. There were also a few failed projects along the way but that is
+          all part of the R in R&D. Eventually though, I was itching for change. I had been asked on several occasions
+          to consider management and this time, I agreed. There, I discovered and developed skills I never thought
+          possible. The thrill of having a team, discovering their strengths and weaknesses, and then capitalizing on
+          those strengths to deliver high-quality software invigorated me. </p>
+        <p>Eight years later however found me itching for change again. I believe in lifelong learning and I become
+          anxious if I’m not learning and growing. So, in a year where everyone felt upside down, I retired from SAS in
+          June, 2020. This is the beginning of my next chapter. </p>
+        <p>What can I do for you? </p>
+        <section id="social">
+          <a href="http://www.linkedin.com/in/christie-corcoran" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/clizcorcoran" target="_blank">
+            <i class="fab fa-github-square"></i>
+          </a>
+          <a href="http://facebook.com/christiecorcoran" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+          </a>         
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="./bundle.js";
+
+</body>
