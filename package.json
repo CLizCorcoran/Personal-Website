@@ -1,0 +1,32 @@
+{
+  "name": "Personal-Website",
+  "version": "1.0.0",
+  "description": "This website is meant to introduce potential employers to Christie's background as well as her present ambitions.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CLizCorcoran/Personal-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CLizCorcoran/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/CLizCorcoran/Personal-Website#readme",
+  "devDependencies": {
+    "css-loader": "^6.0.0",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
+    "mini-css-extract-plugin": "^2.1.0",
+    "style-loader": "^3.1.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  }
+}

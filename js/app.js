@@ -1,0 +1,18 @@
+// CSS
+require('../css/styles.css');
+
+// HTML
+import '../welcome.html';
+import '../experience.html';
+import '../portfolio.html';
+
+// Images
+import '../img/CC.png';
+import '../img/christie.jpg';
+import '../img/mountains.jpg';
+import '../img/sas.png';
+import '../img/saseg.png';
+import '../img/sasstudio.png';
+
+// JavaScript
+require('./main.js');
