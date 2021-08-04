@@ -8,7 +8,9 @@ import '../portfolio.html';
 
 // Images
 import '../img/CC.png';
+import '../img/favicon.png';
 import '../img/christie.jpg';
+import '../img/christieog.jpg';
 import '../img/mountains.jpg';
 import '../img/sas.png';
 import '../img/saseg.png';
