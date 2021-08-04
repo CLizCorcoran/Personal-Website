@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../index.html */ \"./index.html\");\n/* harmony import */ var _experience_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../experience.html */ \"./experience.html\");\n/* harmony import */ var _portfolio_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../portfolio.html */ \"./portfolio.html\");\n/* harmony import */ var _img_CC_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/CC.png */ \"./img/CC.png\");\n/* harmony import */ var _img_christie_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/christie.jpg */ \"./img/christie.jpg\");\n/* harmony import */ var _img_mountains_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/mountains.jpg */ \"./img/mountains.jpg\");\n/* harmony import */ var _img_sas_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../img/sas.png */ \"./img/sas.png\");\n/* harmony import */ var _img_saseg_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/saseg.png */ \"./img/saseg.png\");\n/* harmony import */ var _img_sasstudio_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/sasstudio.png */ \"./img/sasstudio.png\");\n// CSS\r\n__webpack_require__(/*! ../css/styles.css */ \"./css/styles.css\");\r\n\r\n// HTML\r\n\r\n\r\n\r\n\r\n// Images\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n// JavaScript\r\n__webpack_require__(/*! ./main.js */ \"./js/main.js\");\n\n//# sourceURL=webpack://Personal-Website/./js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../index.html */ \"./index.html\");\n/* harmony import */ var _experience_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../experience.html */ \"./experience.html\");\n/* harmony import */ var _portfolio_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../portfolio.html */ \"./portfolio.html\");\n/* harmony import */ var _img_CC_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/CC.png */ \"./img/CC.png\");\n/* harmony import */ var _img_favicon_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/favicon.png */ \"./img/favicon.png\");\n/* harmony import */ var _img_christie_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/christie.jpg */ \"./img/christie.jpg\");\n/* harmony import */ var _img_christieog_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../img/christieog.jpg */ \"./img/christieog.jpg\");\n/* harmony import */ var _img_mountains_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/mountains.jpg */ \"./img/mountains.jpg\");\n/* harmony import */ var _img_sas_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/sas.png */ \"./img/sas.png\");\n/* harmony import */ var _img_saseg_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../img/saseg.png */ \"./img/saseg.png\");\n/* harmony import */ var _img_sasstudio_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../img/sasstudio.png */ \"./img/sasstudio.png\");\n// CSS\r\n__webpack_require__(/*! ../css/styles.css */ \"./css/styles.css\");\r\n\r\n// HTML\r\n\r\n\r\n\r\n\r\n// Images\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n// JavaScript\r\n__webpack_require__(/*! ./main.js */ \"./js/main.js\");\n\n//# sourceURL=webpack://Personal-Website/./js/app.js?");
 
 /***/ }),
 
@@ -49,6 +49,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"img/christie.jpg\");\n\n//# sourceURL=webpack://Personal-Website/./img/christie.jpg?");
+
+/***/ }),
+
+/***/ "./img/christieog.jpg":
+/*!****************************!*\
+  !*** ./img/christieog.jpg ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"img/christieog.jpg\");\n\n//# sourceURL=webpack://Personal-Website/./img/christieog.jpg?");
+
+/***/ }),
+
+/***/ "./img/favicon.png":
+/*!*************************!*\
+  !*** ./img/favicon.png ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"img/favicon.png\");\n\n//# sourceURL=webpack://Personal-Website/./img/favicon.png?");
 
 /***/ }),
 
